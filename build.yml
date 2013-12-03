@@ -1,0 +1,26 @@
+---
+sdkversion: 4.0.0
+name: minimal-javascript
+version: '1.0'
+vendor: rhomobile
+build: debug
+bbver: '6.0'
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator6.0
+  provisionprofile: ''
+  codesignidentity: ''
+  entitlements: ''
+  BundleIdentifier: com.rhomobile.minimal-javascript
+  BundleURLScheme: minimal-javascript
+wp:
+  productid: cc1c97a0-3e1c-0131-5c4b-00237d2ce89c
+symbian:
+  uid: '0xe170a095'
+android:
+  version: 2.3.3
+extensions:
+- rhoconnect-client
+app_type: rhoelements
+capabilities: []
